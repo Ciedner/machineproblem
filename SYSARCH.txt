@@ -1,0 +1,136 @@
+npx create-react-app ciedner
+cd ciedner
+
+npm install bootstrap
+npm install sass
+
+import React from 'react';
+import Home from './Home';
+import About from './AboutUs';
+import Contact from './ContactUs';
+import Login from './Login';
+
+#APP
+function App() {
+  // Set initial state to display the Home component
+  const [page, setPage] = React.useState('home');
+
+  // Function to handle page changes
+  const handlePageChange = (newPage) => {
+    setPage(newPage);
+  };
+
+  // Render the appropriate component based on the current page state
+  let pageComponent;
+  if (page === 'home') {
+    pageComponent = <Home />;
+  } else if (page === 'about') {
+    pageComponent = <About />;
+  } else if (page === 'contact') {
+    pageComponent = <Contact />;
+  } else if (page === 'login') {
+    pageComponent = <Login />;
+  }
+
+  return (
+    <div>
+      <nav>
+        <ul>
+          <li><button onClick={() => handlePageChange('home')}>Home</button></li>
+          <li><button onClick={() => handlePageChange('about')}>About Us</button></li>
+          <li><button onClick={() => handlePageChange('contact')}>Contact Us</button></li>
+          <li><button onClick={() => handlePageChange('login')}>Log In</button></li>
+        </ul>
+      </nav>
+      <main>
+        {pageComponent}
+      </main>
+    </div>
+  );
+}
+#INDEX
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+#LOGIN
+import React from 'react';
+
+function Login() {
+  return (
+    <div>
+      <h1>Log In</h1>
+      <form>
+        <label>
+          Username:
+          <input type="text" name="username" />
+        </label>
+        <br />
+        <label>
+          Password:
+          <input type="password" name="password" />
+        </label>
+        <br />
+        <button type="submit">Log In</button>
+      </form>
+    </div>
+  );
+}
+
+export default Login;
+
+#ABOUTUS
+import React from 'react';
+
+function About() {
+  return (
+    <div>
+      <h1>About Us</h1>
+      <p>AKO SI CIEDNER MABALE!</p>
+      <p>USA KA LUMUPLYO SA LILOAN</p>
+      <p>AKO KAY GA SKWELA SA UCB</p>
+    </div>
+  );
+}
+
+export default About;
+
+#CONTACT US
+import React from 'react';
+
+function Contact() {
+  return (
+    <div>
+      <h1>Contact Us</h1>
+      <p>Feel free to reach out to us with any questions or feedback!</p>
+      <p>Our email address is contact@example.com.</p>
+    </div>
+  );
+}
+
+export default Contact;
+
+#home
+import React from 'react';
+
+function Home() {
+  return (
+    <div>
+    <h1>WELCOME MGA TAO</h1>
+    <p>MAO KINI AKONG AKONG FRONTPAGE</p>
+  </div>    
+  );
+}
+
+export default Home;
+
+
+
+export default App;
