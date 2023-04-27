@@ -5,6 +5,7 @@ import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Login from './pages/Login';
 import MyNavbar from './components/Navbar';
+import Registration from './pages/Registration';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/pages/AboutUs" element={<AboutUs />} />
         <Route path="/pages/ContactUs" element={<ContactUs />} />
         <Route path="/pages/Login" element={<Login />} />
+        <Route path="/pages/Registration" element={<Registration />} />
       </Routes>
     </Router>
   );
