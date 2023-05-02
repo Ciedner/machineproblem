@@ -4,8 +4,9 @@ import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Login from './pages/Login';
-import MyNavbar from './components/Navbar';
 import Registration from './pages/Registration';
+import MyNavbar from './components/Navbar';
+
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {

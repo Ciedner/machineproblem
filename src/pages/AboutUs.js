@@ -14,7 +14,7 @@ const AboutUs = () => {
       </Row>
       <Row className="justify-content-center my-5">
         <Col lg={4}>
-          <Image src="https://scontent.fceb1-3.fna.fbcdn.net/v/t39.30808-6/298091945_1537082493387253_2053066261217040667_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_eui2=AeGwubTrKENFNOzML7GCtCIiC--hx_tSBOkL76HH-1IE6Vru0_g22OKH_pnQsHe-Qmb-Y2TXJjJZY5NPxDwp7g30&_nc_ohc=zekF7gHo6hoAX_Xlb7F&_nc_ht=scontent.fceb1-3.fna&oh=00_AfD1CIUnNuPWqkpTQGLsdF8zR2G14IjJUmDi0RyxluDaAw&oe=644EC9A0" roundedCircle className="w-100 mb-3" />
+          <Image src="https://scontent.fmnl25-2.fna.fbcdn.net/v/t1.15752-9/341927532_1666461320481947_6790273207105067725_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGOp7F_EtLFZxF5Zu3K5fYQpZjpX0bkt9elmOlfRuS31yurGvyy6-Jc115We0h8J_Yjaz0uKx5CyaGohj7yH-CV&_nc_ohc=pDYHg0-WWFkAX_7sVtu&_nc_ht=scontent.fmnl25-2.fna&oh=03_AdT9WtfFzuJPQcN6x8rZEVZvkxjPUprAb8NDzXnJEhH8eA&oe=6477C403" />
           <h4 className="text-center mb-3">Gilbert Canete</h4>
           <p className="text-center">
             Ako si Gilbert Canete Jr. Anak ni Lorna ug Edsel. Akong edad kay 25 na pero cutie pie gihapon ko. Akong amego na si Ciedner ang nagbutang ug nwng nako diri kay wa na siyay mabutang na laing nwng sa iyang about us na page maong ni desisyon nalang siya na ako nalang na nwng kay choy gwapo pogi man daw ko.
